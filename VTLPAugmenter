@@ -1,5 +1,5 @@
 """
-    Augmenter that apply vocal tract length perturbation (VTLP) operation to audio.
+    Augmenter that applies vocal tract length perturbation (VTLP) operation to audio.
 """
 
 from nlpaug.augmenter.audio import AudioAugmenter
