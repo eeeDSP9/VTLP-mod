@@ -54,7 +54,7 @@ class VtlpAug(AudioAugmenter):
         return self.model.manipulate(data, start_pos=start_pos, end_pos=end_pos, sampling_rate=self.sampling_rate,
             warp_factor=warp_factor)
 
-directory_path = '/Users/resul/Downloads/chap 5/chap'
+directory_path = '' #use your directory
 
 for filename in os.listdir(directory_path):
     if filename.endswith(".wav"):
